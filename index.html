@@ -1,70 +1,96 @@
-<!DOCTYPE html>
-<html class="nojs html css_verticalspacer" lang="en-GB">
- <head>
-
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-  <meta name="generator" content="2017.0.3.363"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>interactive content</title>
+  <style>
+  /*#draggable { width: 150px; height: 150px; padding: 0.5em; }*/
+  /*#draggable { width: 20%; height: 20%; padding: 0.5em; }*/
+    
+    #contentbox { width: 100%; height: 100%; overflow: hidden;}
+   #duchamp { width: 35%; padding: 0.5em; position: relative;
+    left: 7vw;}
+   #emin { width: 35%; padding: 0.5em; position: relative;
+    left: 45vw; top: -300px;}
+   #kahlo { width: 35%; padding: 0.5em; position: relative;
+    left: 30vw; top: -35vw;}
+   #playskool { width: 35%; padding: 0.5em; position: relative;
+    left: 4vw; top: -50vw;}
+   /*#ducrot { width: 35%; padding: 0.5em; position: relative;
+    left: 400px; top: -1300px}*/
+   #mona { width: 35%; padding: 0.5em; position: relative;
+    left: 40vw; top: -75vw;}
+    #ponis { width: 35%; padding: 0.5em; position: relative;
+    left: 20vw; top: -90vw;}
+        #guerlain { width: 25%; padding 0.5em; position: relative;
+    left: 55vw; top: -135vw;}
+    
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   
-  <script type="text/javascript">
-   // Update the 'nojs'/'js' class on the html node
-document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
-
-// Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
-</script>
   
-  <link rel="shortcut icon" href="images/favicon.ico?crc=372578738"/>
-  <title>Home</title>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3969888316" id="pagesheet"/>
-   </head>
- <body class="museBGSize">
+  <script>
+    $(document).ready(function() {
+   $('#duchamp,#emin,#kahlo,#playskool,#mona,#ponis,#orangeblossom,#guerlain').draggable({stack: "div"});
+});
+  
+  </script> 
+</head>
+<body>
+  <div id="contentbox">
+    
+ <div id="duchamp" class="pic">
+   <a href="https://en.wikipedia.org/wiki/Marcel_Duchamp"target="_blank"> <img class="ui" src="https://78.media.tumblr.com/a2695cb42dcde45f5dfefd3116fb7da1/tumblr_p45lf3wJtQ1wwdp6oo1_1280.jpg"> </a><div class="overlay">
+</div>
+    </div>
+     <div id="emin" class="pic">
+       <a href="https://www.google.com/search?client=safari&rls=en&ei=RzBpW5yEEeWE_Qa24IaYDA&q=tracey+emin&oq=tracey+emin&gs_l=psy-ab.3..0i67k1j0i20i264k1j0j0i67k1l2j0j0i67k1j0l3.1700.1700.0.1923.1.1.0.0.0.0.92.92.1.1.0....0...1.1.64.psy-ab..0.1.92....0.CGfDUsSQSDs"target="_blank"> <img class="ui" src="https://78.media.tumblr.com/6ed48c464d3caa65782868c3baff13f2/tumblr_ofu0a3tbrz1rl2k7fo1_500.jpg"> </a><div class="overlay">
+</div>
+</div>
+  
+    <div id="kahlo" class="pic">
+   <a href="https://www.goodreads.com/quotes/795390-i-love-you-more-than-my-own-skin-and-even"target="_blank"> <img class="ui" src="https://78.media.tumblr.com/cd92e25500bdcb5c410fd4b1dae8e9f6/tumblr_ndatu7c95s1qc2ixao1_1280.jpg"> </a><div class="overlay">
+</div>
+</div>
+    
+ <div id="playskool" class="pic">
+   <a href="https://www.google.com/search?client=safari&rls=en&q=playskool&ie=UTF-8&oe=UTF-8"target="_blank"> <img class="ui" src="https://78.media.tumblr.com/tumblr_ltwat5nxve1r2ftu7o1_1280.jpg"> </a><div class="overlay">
+</div>
+</div>
 
-  <div class="clearfix borderbox" id="page"><!-- group -->
-   <img class="grpelem" id="u121" alt="" src="images/logo_original-u121.png?crc=243369496" data-image-width="130"/><!-- rasterized frame -->
-   <div class="clearfix grpelem" id="ppu114-4"><!-- column -->
-    <div class="clearfix colelem" id="pu114-4"><!-- group -->
-     <img class="grpelem" id="u114-4" alt="Pear Crew" src="images/u114-4.png?crc=397857865" data-image-width="373"/><!-- rasterized frame -->
-     <img class="grpelem" id="u145-4" alt="We make cool stuff on YouTube for all tech geeks and nerds like us (P.S: we &lt;3 U)..." src="images/u145-4.png?crc=309870622" data-image-width="380"/><!-- rasterized frame -->
-    </div>
-    <div class="clearfix colelem" id="pu252"><!-- group -->
-     <div class="clip_frame grpelem" id="u252"><!-- image -->
-      <img class="block" id="u252_img" src="images/icons8-discord-512.png?crc=4194879161" alt="Pear Crew#3242" data-image-width="57" data-image-height="57"/>
-     </div>
-     <a class="nonblock nontext clip_frame grpelem" id="u266" href="https://www.youtube.com/channel/UCq--w93t5QRxHofJ14k1uwA"><!-- image --><img class="block" id="u266_img" src="images/icons8-play-button-512.png?crc=4068851723" alt="" data-image-width="56" data-image-height="56"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u259" href="https://github.com/PearCrew"><!-- image --><img class="block" id="u259_img" src="images/icons8-github-512.png?crc=4075127164" alt="" data-image-width="57" data-image-height="57"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u301" href="https://twitter.com/PearCrew"><!-- image --><img class="block" id="u301_img" src="images/icons8-twitter-512.png?crc=3892097010" alt="" data-image-width="57" data-image-height="57"/></a>
-    </div>
-    <div class="clearfix colelem" id="u311-4"><!-- content -->
-     <p>© 2012 - 2018 Pear Crew</p>
-    </div>
-   </div>
-   <div class="verticalspacer" data-offset-top="364" data-content-above-spacer="378" data-content-below-spacer="135"></div>
+
+<!-- <div id="ducrot" class="ui-widget-content">
+   <a href="https://www.google.com/search?client=safari&rls=en&q=isabella+ducrot&ie=UTF-8&oe=UTF-8"target="_blank"> <img class="ui" src="https://78.media.tumblr.com/d381b2ae70d1e89c37912035c8fbab0f/tumblr_pcw0902Sor1ucypcuo1_1280.jpg"> </a>
+</div> -->
+    
+  <div id="mona" class="pic">
+   <a href="https://www.reddit.com/r/ColorizedHistory/comments/7bj3e3/unpacking_mona_lisa_at_the_end_of_world_war_ii_in/"target="_blank"> <img class="ui" src="http://designinspiration.com/images/2017/06/Unpacking-Mona-Lisa-at-the-end-of-World-War-II-1945.jpg"> </a><div class="overlay">
+</div>
+</div>
+            <div id="ponis" class="pic">
+   <a href="https://www.google.com/search?client=safari&rls=en&q=alberto+ponis&ie=UTF-8&oe=UTF-8"target="_blank"> <img class="ui" src="https://78.media.tumblr.com/tumblr_mbzv6oVQ1Q1r56udmo1_1280.png"> </a><div class="overlay">
+</div>
+</div>
+    
+          <div id="guerlain" class="pic">
+            <a href="https://museum-gestaltung.ch/en/">
+ <img class="ui" src="https://static1.squarespace.com/static/56d655b8b6aa60cd7109f627/5b699a2b562fa7d511bce191/5b75a5d64d7a9c76b202d862/1534436903137/Perfume_bottle.png?format=500w"></a><div class="overlay">
+</div>
+</div>
+    
+   
   </div>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   // Decide weather to suppress missing file error or not based on preference setting
-var suppressMissingFileError = false
-</script>
-  <script type="text/javascript">
-   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
-16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
-l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
-f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
-setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
-window.Muse.assets.check($);/* body */
-Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
-
-</script>
-  <!-- RequireJS script -->
-  <script src="scripts/require.js?crc=85721165" type="text/javascript" async data-main="scripts/museconfig.js?crc=436936948" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-   </body>
+</body>
 </html>
+
+
+
+<style>
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 760px) {
+  .contentbox {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
