@@ -12,14 +12,40 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .merkatoLogo {
+	position: absolute;
+	max-width: 80%;
+	top: 10%;
+	left: 10%;
+	border-radius: 3px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+@media screen and (orientation: portrait) {
+  .merkatoLogo { max-width: 90%; }
+}
+
+@media screen and (orientation: landscape) {
+  .merkatoLogo { max-height: 90%; }
+}
+
+/*.merkatoLogo {
   position: fixed;
   max-width:10%;
   max-height:10%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+}*/
+
 /*.square {
   width: 100px;
   height: auto;
