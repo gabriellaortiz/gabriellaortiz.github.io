@@ -131,7 +131,7 @@ li a:hover {
 }
 
 
-.pulse {
+/*.pulse {
   margin:100px;
   display: block;
   width: 22px;
@@ -177,9 +177,25 @@ li a:hover {
       box-shadow: 0 0 0 0 rgba(204,169,44, 0);
   }
 }
+*/
+
+
+@-webkit-keyframes redPulse {
+    from { -webkit-filter: drop-shadow(0px 0px 20px rgba(194,0,0,0.7)); filter: url(shadow.svg#drop-shadow); }
+    50% { -webkit-filter: drop-shadow(0px 0px 20px rgba(255,0,0,1)); filter: url(shadow.svg#drop-shadow); }
+    to { -webkit-filter: drop-shadow(0px 0px 20px rgba(194,0,0,0.7)); filter: url(shadow.svg#drop-shadow); }
+}
+.pulse {
+    width: 500px;
+}
+.glow { 
+    -webkit-animation-name: redPulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
 
 </style>
-<span class="pulse">
+<span class="pulse" class="glow">
 <img width="100%" src="listentome.png" alt="LISTEN TO ME">
 </span>
 
