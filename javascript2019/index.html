@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INSPIRATION</title>
+  <style>
+
+  html, body {margin: 0; height: 100%; overflow: hidden}
+
+
+    #contentbox { width: 100%; height: 100%; overflow: hidden;}
+   #photographie { padding: 0.5em; position: relative;
+    left: 7vw;}
+   #wen { padding: 0.5em; position: relative;
+    left: 644px; top: -403px;}
+   #italy { padding: 0.5em; position: relative;
+    left: 30vw; top: -35vw;}
+   #record { padding: 0.5em; position: relative;
+    left: 21px; top: -576px;}
+    #doberman { padding: 0.5em; position: relative;
+    left: 300px; top: -794px;}
+    #yellow { padding: 0.5em; position: relative;
+    left: 729px; top: -1142px;}
+    #textlink {font-size: 18;};
+    
+.pic {
+width: 20%;
+}
+
+img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+
+  <script>
+    $(document).ready(function() {
+   $('#photographie,#wen,#italy,#record,#doberman,#yellow').draggable({stack: "div"});
+});
+  
+  </script> 
+</head>
+<body>
+  <div id="contentbox">
+    
+ <div id="photographie" class="pic">
+   <a href="x="_blank"> <img class="ui" src="photographie.jpg" width="20%"> </a><div class="overlay">
+</div>
+    </div>
+     <div id="wen" class="pic">
+       <a href="x"target="_blank"> <img class="ui" src="wen.jpg" width="20%"> </a><div class="overlay">
+</div>
+</div>
+  
+    <div id="italy" class="pic">
+   <a href="x"target="_blank"> <img class="ui" src="italy.jpg" width="20%"> </a><div class="overlay">
+</div>
+</div>
+    
+ <div id="record" class="pic">
+   <a href="x"target="_blank"> <img class="ui" src="record.jpg" width="20%"> </a><div class="overlay">
+</div>
+</div>
+     <div id="doberman" class="pic">
+       <a href="x"target="_blank"> <img class="ui" src="doberman.jpg" width="20%"> </a><div class="overlay">
+</div>
+</div>   
+  <div id="yellow" class="pic">
+       <a href="x"target="_blank"> <img class="ui" src="yellow.png" width="20%"> </a><div class="overlay">
+</div>
+</div>
+    
+   
+  </div>
+</body>
+</html>
+
+
+
+<style>
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 760px) {
+  .contentbox {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+</html>
