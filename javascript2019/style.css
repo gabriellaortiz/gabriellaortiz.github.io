@@ -10,7 +10,6 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 
 #babyPhoto {
-	height: 50%;
-	width: 50%;
-	position: fixed;
+	max-width: 100%
+	position: relative;
 }
