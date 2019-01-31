@@ -4,6 +4,8 @@ body {
 	font-weight: bold;
 	line-height: 100px;
 	padding: 10px;
+	font-style: none;
+	color: #0921EA;
 }
 
 ul {
