@@ -16,11 +16,15 @@
 }
 
 #links {
-font-family: helvetica;
-text-transform: uppercase;
-font-size: 12px;
-padding-left: 10px;
-color: black;
+	font-family: helvetica;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding-left: 10px;
+	color: black;
+}
+
+#projectsLink {
+	padding-left: 10px;
 }
 
 #babyPhoto {
