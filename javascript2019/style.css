@@ -4,13 +4,11 @@ html {
 	background: #FFFAF1;
 }
 #bio {
-	font-family: helvetica;
-	font-size: 15px;
-	font-weight: bold;
-	padding-right: 300px;
-	padding-left: 300px;
-	text-align: justify;
+	font-family: courier;
+	font-size: 12px;
+	padding-left: 10px;
 	line-height: 30px;
+	width: 600px;
 }
 
 #title {
@@ -30,7 +28,7 @@ html {
 }
 
 #projectsLink {
-	
+
 }
 
 #babyPhoto {
