@@ -2,8 +2,9 @@
 	font-family: courier;
 	font-size: 12px;
 	padding-left: 10px;
+	padding-right: 100px;
 	line-height: 30px;
-	width: 600px;
+	text-align: justify;
 }
 
 #title {
@@ -14,16 +15,12 @@
 	padding-left: 10px;
 }
 
-#mySite {
-	text-decoration: none;
-	font-family: helvetica;
-	text-transform: uppercase;
-	font-size: 10;
-	padding-left: 10px;
-}
-
-#projectsLink {
-	text-decoration: none;
+#links {
+font-family: helvetica;
+text-transform: uppercase;
+font-size: 12px;
+padding-left: 10px;
+color: black;
 }
 
 #babyPhoto {
