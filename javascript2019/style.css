@@ -1,8 +1,12 @@
 html, body {margin: 0; height: 100%; overflow: hidden}
 
+html {
+	background: #FFFAF1;
+}
 #bio {
 	font-family: helvetica;
 	font-size: 15px;
+	font-weight: bold;
 	padding-right: 300px;
 	padding-left: 300px;
 	text-align: justify;
