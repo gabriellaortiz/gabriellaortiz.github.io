@@ -1,1 +1,4 @@
-font-family: 'Bangers', cursive;
+body {
+	font-family: 'VT323', monospace;
+	font-size: 14px;
+}
