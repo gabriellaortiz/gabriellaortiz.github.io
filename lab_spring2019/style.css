@@ -5,15 +5,17 @@ body {
 	width: 50%;
 	padding: 100px;
 	text-align: center;
+	background-color: ivory;
 }
 
 body .options {
-	font-size: 10px;
-	font-weight: lighter;
+	font-size: 18px;
+	font-weight: normal;
+	color: darkgreen;
 }
 
 #tomjerry {
 	font-family: 'VT323', monospace;
-	font-size: 50px;
+	font-size: 40px;
 	text-transform: uppercase;
 }
