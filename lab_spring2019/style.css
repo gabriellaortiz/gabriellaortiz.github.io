@@ -1,12 +1,12 @@
 @media (max-width: 600px) {
 	body {
-		background: red;
+		background: ivory;
 	}
 }
 
 @media (max-width: 1000px) {
 	body {
-		background: blue;
+		background: lightblue;
 	}
 }
 
@@ -28,6 +28,10 @@ body {
 	padding: 10px;
 }
 */
+
+img {
+	width: 70%;
+}
 
 #tomjerry {
 	font-family: 'VT323', monospace;
