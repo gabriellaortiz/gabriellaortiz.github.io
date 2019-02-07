@@ -1,15 +1,14 @@
 @media (max-width: 600px) {
 	body {
-		background: ivory;
+		background: #edfbff;
 	}
 }
 
 @media (max-width: 1000px) {
 	body {
-		background: lightblue;
+		background: #ffeded;
 	}
 }
-
 
 body {
 	font-family: 'VT323', monospace;
@@ -30,11 +29,12 @@ body {
 */
 
 img {
+	height:auto;
 	width: 70%;
 }
 
 #tomjerry {
-	font-family: 'VT323', monospace;
+	font-family: helvetica;
 	font-size: 40px;
 	text-transform: uppercase;
 }
@@ -45,9 +45,18 @@ img {
 	padding-top: 50px;
 }
 
+#startover a, a:hover, a:visited, a:active {
+	color: #ff75ec;
+}
+
 #options {
 	font-size: 18px;
 	font-weight: normal;
-	color: darkgreen;
 	padding: 10px;
+	padding-bottom: 20px;
+}
+
+
+#options a, a:hover, a:visited, a:active {
+	color: #5587fc;
 }
