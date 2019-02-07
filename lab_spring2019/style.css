@@ -3,12 +3,13 @@ body {
 	font-size: 24px;
 	margin: auto;
 	width: 50%;
-	padding: 20px;
+	padding: 100px;
+	text-align: center;
 }
 
-.options {
+body .options {
 	font-size: 10px;
-	font-weight: bold;
+	font-weight: lighter;
 }
 
 #tomjerry {
