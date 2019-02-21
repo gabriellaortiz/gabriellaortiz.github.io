@@ -9,6 +9,7 @@ body {
   overflow: hidden;
 }
 
+
 .navbar {
   width: 100%;
   overflow: auto;
@@ -17,9 +18,6 @@ body {
 
 /* Navbar links */
 .navbar a {
-  /* float: left; 
-    padding: 12px;
-*/
   text-align: center;
   color: white;
   text-decoration: none;
@@ -36,16 +34,20 @@ body {
   text-align: center;
 }
 
-
 #logo {
   width: 160px;
   height: 160px;
   padding: 5px;
 }
 
-/* Navbar links on mouse-over */
+/* Navbar links on mouse-over 
 .navbar a:hover {
   background-color: #0a2c3d;
+}*/
+
+a.nav :hover {
+    background-color: #0a2c3d;
+
 }
 
 /* Current/active navbar link */
