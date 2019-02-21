@@ -30,6 +30,19 @@ body {
   background-color: #0e3653;
   border: none;
 }
+#submit {
+  font-family: 'harry_pregular';
+  color: #FDD793;
+  font-size: 50px;
+  text-align: center;
+  background-color: #0e3653;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#submit:hover{
+  color: #B4C3DA;
+}
 
 .navbar {
   width: 100%;
