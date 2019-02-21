@@ -65,19 +65,19 @@ input::placeholder {
 }
 
 .navicon {
-  width: 100px;
-  height: 100px;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  padding-left: 40px;
-  padding-right: 40px;
-  text-align: center;
+width: 100px;
+height: 100px;
+padding-top: 45px;
+padding-bottom: 45px;
+padding-left: 10px;
+padding-right: 10px;
+text-align: center;
 }
 
 #logo {
   width: 160px;
   height: 160px;
-  padding: 5px;
+  padding: 15px;
 }
 
 /* Navbar links on mouse-over 
