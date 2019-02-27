@@ -236,7 +236,7 @@ function toggleButton13() {
 	} else if (personalityVal > 8 && personalityVal <= 10) {
 		document.getElementById('button13').style.visibility = 'hidden';
 		resultDiv.appendChild(newParagraph);
-		newParagraph.textContent = "You are Memetchi! Memetchi is a very stylish, feminine, child-like character and somewhat defensive of her appearance. She can be a crybaby at times due to her sensitivity. She loves all things swirly, which is why many things she owns have swirls on them. Her favorite foods are cupcakes and oranges, and she dislikes fish.";
+		newParagraph.textContent = "You are Memetchi! Memetchi is a very stylish, feminine, child-like character and somewhat defensive of her appearance. She can be a crybaby at times due to her sensitivity. She loves all things swirly, which is why many things she owns have swirls on them. Her favorite foods are cupcakes and oranges.";
 		resultDiv.appendChild(img);
 		img.src = "tamaimg/Memetchi.png"
 	} else if (personalityVal > 10) {
