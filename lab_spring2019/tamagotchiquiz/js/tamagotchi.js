@@ -113,7 +113,6 @@ function toggleButton5() {
 		// document.getElementById('question3').style.visibility = 'visible';
 	}
 		console.log(personalityVal);
-
 }
 
 function toggleButton6() {
