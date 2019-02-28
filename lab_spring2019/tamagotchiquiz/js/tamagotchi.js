@@ -12,7 +12,7 @@ const button2 = document.getElementById('button2');
 const button3 = document.getElementById('button3');
 const button4 = document.getElementById('button4');
 
-// quesiton 2 buttons
+// question 2 buttons
 const button5 = document.getElementById('button5');
 const button6 = document.getElementById('button6');
 const button7 = document.getElementById('button7');
@@ -207,18 +207,18 @@ function toggleButton11() {
 
 function toggleButton12() {
 	if (button12.value === "true") {
-		button12.value = "false";
-	} else {
-		button12.value = "true";
-		personalityVal+=4;
-		document.getElementById('question1').style.visibility = 'hidden';
-		document.getElementById('question2').style.visibility = 'hidden';
-		document.getElementById('question3').style.visibility = 'hidden';
-		document.getElementById('button13').style.visibility = 'visible';
-	}
-		console.log(personalityVal);
-
+			button12.value = "false";
+		} else {
+			button12.value = "true";
+			personalityVal+=4;
+			document.getElementById('question1').style.visibility = 'hidden';
+			document.getElementById('question2').style.visibility = 'hidden';
+			document.getElementById('question3').style.visibility = 'hidden';
+			document.getElementById('button13').style.visibility = 'visible';
+		}
+			console.log(personalityVal);
 }
+
 
 function toggleButton13() {
 	if(personalityVal <= 5) {
