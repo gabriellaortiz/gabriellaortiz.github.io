@@ -99,7 +99,7 @@ function nextButtonClicked() {
       // 	console.log(answer);
       // });
 
-     var request = new XMLHttpRequest();
+    var request = new XMLHttpRequest();
 
 	request.open('GET', 'https://api.ipdata.co/?api-key=74db7cedb43a06aafad4e82c0b3d2a02e3b2ae3969a3596387893424');
 
