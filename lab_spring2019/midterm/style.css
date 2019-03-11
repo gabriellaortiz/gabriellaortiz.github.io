@@ -1,5 +1,5 @@
-ul{list-style:none}
-/*body {
+/*ul{list-style:none}
+*//*body {
 display: block;
 margin-top: 8px;
 margin-right: 8px;
@@ -7,6 +7,34 @@ margin-bottom: 8px;
 margin-left: 8px;
 }*/
 
-body {
+body h2{
 	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	display: block;
+
+}
+
+body p {
+    white-space: pre-wrap;
+	font-family: 'Roboto Mono', monospace;
+	text-align: left;
+	display: block;
+
+
+}
+
+/*button {
+	position: absolute;
+}*/
+
+.flex {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+}
+
+#userAnswersP {
+	font-style: bold;
 }
