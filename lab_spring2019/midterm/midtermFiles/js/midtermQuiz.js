@@ -94,10 +94,8 @@ function nextButtonClicked() {
    	if (i == lastQuestion) {
    		i++;
    		populateQuestion(lastQuestion);
-   		var questionResponse = document.getElementById('useranswer').value;
-   		   if (questionResponse !== "") {    		
-    			userAnswers.push(questionResponse);
-    		}
+   		var questionResponse = document.getElementById('useranswer').value;    		
+    	userAnswers.push(questionResponse);
    	}
 
    	if(i > length1 -2) {
@@ -151,18 +149,12 @@ function nextButtonClicked() {
     	i++;
     	console.log(i);
     	// if (i > 1 && i < length1) {
-    	// var errorQuestionResponse = document.getElementById('useranswer').value;
-    	// var errorQuestionTitle = document.getElementById('useranswer').value;    		
-    	// if (i > 1 && errorQuestionTitle !== "create your own story..." && errorQuestionResponse !== "") {
     	if (i > 1) {
-    		var questionResponse = document.getElementById('useranswer').value;
-    		if (questionResponse !== "") {
-    			userAnswers.push(questionResponse);
-    		}    		
+    		var questionResponse = document.getElementById('useranswer').value;    		
+    		userAnswers.push(questionResponse);
+
     	}
-    	// else if (i >= 1) {
     	populateQuestion(i);
-    	// }
     }
 };
 
