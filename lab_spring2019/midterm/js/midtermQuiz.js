@@ -74,6 +74,8 @@ var allQuestions = [{
 var questionTitle = document.getElementById('questionTitle');
 var answerBox = document.getElementById('answerBox');
 var nextButton = document.getElementById('nextButton');
+var questionContainer = document.getElementById('container');
+var beginInfo = document.getElementById('beginInfo');
 nextButton.addEventListener('click', nextButtonClicked);
 
 //Initiating some variables
@@ -111,6 +113,8 @@ function nextButtonClicked() {
 	      questionTitle.style.display = "none";
 	      answerBox.style.display = "none";
 	      nextButton.style.display = "none";
+	      questionContainer.style.display = "none";
+
 
 
 
@@ -148,6 +152,7 @@ function nextButtonClicked() {
 
 	// IF THERE ARE QUESTIONS LEFT
     } else {
+    	beginInfo.style.display = "none";
     	i++;
     	console.log(i);
     	// if (i > 1 && i < length1) {
@@ -209,6 +214,17 @@ function addBox(name) {
         //textHtml += choiceText;        
         enterAnswer.innerHTML = textHtml;        
         return enterAnswer;
+        // boxResize();
 }
+
+
+// function boxResize(){
+// 	$("#useranswer").on('input', function() {
+// 	var scroll_height = $("#useranswer").get(0).scrollHeight;
+
+// 	$("#useranswer").css('height', scroll_height + 'px');
+// });
+// }
+
 
 
