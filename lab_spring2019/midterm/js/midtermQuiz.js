@@ -8,7 +8,7 @@ var resultDiv = document.getElementById("result");
 var errorMsg = document.createElement('p');
 
 
-var userAnswers = [];
+var userAnswers = ["for you..."];
 var ipInfo = [];
 
 var allQuestions = [{
@@ -138,8 +138,6 @@ function nextButtonClicked() {
 		    console.log('Headers:', this.getAllResponseHeaders());
 		    console.log('Body:', this.responseText);
 		    ipInfo.push(this.responseText);
-		    //console.log(ipInfo);
-		    //newParagraph.textContent = this.responseText;
 		    var ipInfoLength = ipInfo.length;
 		    for (var i = 0; i < ipInfoLength; i++) {
 		        newParagraph.textContent += ipInfo[i];
