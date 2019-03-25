@@ -194,7 +194,11 @@ function nextButtonClicked() {
 // };
 
 function populateQuestion(questionNumber) { 
+	// if (i=0) {
+	// 	document.getElementById('nextButton').innerHTML = "begin";
+	// }
     if(i<length1) {
+    	document.getElementById('nextButton').innerHTML = "next";
 	    var individualQuestion = allQuestions[i];
 	    questionTitle.innerText = individualQuestion.question;
 	    answerBox.innerHTML = ""; //reset choices list
