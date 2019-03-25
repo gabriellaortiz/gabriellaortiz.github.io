@@ -48,11 +48,11 @@ var allQuestions = [{
 	choices: ['Others'],
 },
 {
-	question: 'bury a secret',
+	question: 'describe god',
 	choices: ['Others'],
 },
 {
-	question: 'describe god',
+	question: 'share the last dream you can remember',
 	choices: ['Others'],
 },
 {
@@ -60,11 +60,11 @@ var allQuestions = [{
 	choices: ['Others'],
 },
 {
-	question: 'share last dream you can remember',
+	question: 'something you wish you said',
 	choices: ['Others'],
 },
 {
-	question: 'something you wish you said',
+	question: 'bury a secret',
 	choices: ['Others'],
 }
 
