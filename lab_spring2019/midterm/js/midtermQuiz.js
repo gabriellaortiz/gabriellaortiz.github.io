@@ -32,7 +32,7 @@ var allQuestions = [{
 	choices: ['Others'],
 },
 {
-	question: "what is the most painful thing you've been told?",
+	question: "the most painful thing you've been told?",
 	choices: ['Others'],
 },
 {
