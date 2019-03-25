@@ -45,6 +45,12 @@ button {
 	user-select: none;
 }
 
+button:hover { 
+/*  background-color: black;
+  color: white;*/
+  text-decoration: underline;
+}
+
 .flex {
    display: flex;
    flex-direction: row;
