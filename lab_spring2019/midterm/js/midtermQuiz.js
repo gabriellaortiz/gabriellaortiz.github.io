@@ -12,6 +12,10 @@ var userAnswers = ["for you..."];
 var ipInfo = [];
 
 var allQuestions = [{
+	question: 'empty',
+	choices: ['Others'],
+},
+{
 	question: 'what is your favorite color?',
 	choices: ['Others'],
 },
@@ -41,6 +45,10 @@ var allQuestions = [{
 },
 {
 	question: 'have you ever been in love?',
+	choices: ['Others'],
+},
+{
+	question: 'when was the last time you cried?',
 	choices: ['Others'],
 },
 {
