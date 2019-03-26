@@ -8,7 +8,7 @@ var resultDiv = document.getElementById("result");
 var errorMsg = document.createElement('p');
 
 
-var userAnswers = ["for you..."];
+var userAnswers = [];
 var ipInfo = [];
 
 var allQuestions = [{
