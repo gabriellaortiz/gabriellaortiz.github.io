@@ -6,26 +6,26 @@ html {
 	position: absolute;
   left: 0px;
   top: 0px;
-  z-index: -3;
+  z-index: -1;
 }
 
 #div2 {
   position: absolute;
-  left: -20px;
+  left: 1000px;
   top: 0px;
-  z-index: -80;
+  z-index: -1;
 }
 
 #div3 {
   position: absolute;
-  left: 30px;
-  top: 0px;
-  z-index: -20;
+  right: 0px;
+  top: 200px;
+  z-index: -1;
 }
 
 #div4 {
   position: absolute;
-  left: 40px;
+  left: 300px;
   top: 0px;
-  z-index: -40;
+  z-index: -1;
 }
