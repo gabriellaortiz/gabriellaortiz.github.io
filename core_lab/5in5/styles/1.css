@@ -1,0 +1,31 @@
+html {
+	background: black;
+}
+
+#div1 {
+	position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -3;
+}
+
+#div2 {
+  position: absolute;
+  left: -20px;
+  top: 0px;
+  z-index: -80;
+}
+
+#div3 {
+  position: absolute;
+  left: 30px;
+  top: 0px;
+  z-index: -20;
+}
+
+#div4 {
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  z-index: -40;
+}
