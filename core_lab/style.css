@@ -1,0 +1,22 @@
+.constraints {
+  font-family: helvetica;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+a {
+	font-family: helvetica;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+  text-align: center;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.center {
+  word-spacing: 30px;
+  text-align: center;
+}

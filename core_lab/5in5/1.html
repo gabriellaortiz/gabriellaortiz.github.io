@@ -1,51 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="styles/1.css">
-    <title>early morning rain - elvis</title>
 
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles/1.css">
+  <title>1</title>
+  <!-- credit: https://www.w3schools.com/jquery/eff_fadein.asp -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#div1").fadeIn(30000);
+      $("#div2").fadeIn(30000);
+      $("#div3").fadeIn(30000);
+      $("#div4").fadeIn(100);
+      $("#div5").fadeIn(30000);
+    });
+  </script>
+</head>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-    $("#div1").fadeIn(100);
-    $("#div2").fadeIn(6000);
-    $("#div3").fadeIn(9000);
-    $("#div4").fadeIn(1000);
-  });
-</script>
-  </head>
-  <body>
+<body>
 
-<div id="div1" style="width:1000px;display:none;">
-	<video autoplay id="video1" width="420">
-    <source src="assets/elvis.mp4" type="video/mp4">
-    <source src="mov_bbb.ogg" type="video/ogg">
-    Your browser does not support HTML5 video.
-  </video>
-</div><br>
-<div id="div2" style="width:800px;display:none;">
-	<video autoplay id="video1" width="420">
-    <source src="assets/elvis2.mp4" type="video/mp4">
-    <source src="mov_bbb.ogg" type="video/ogg">
-    Your browser does not support HTML5 video.
-  </video>
-</div><br>
-<div id="div3" style="width:600px;display:none;">
-	<video autoplay id="video1" width="420">
-    <source src="assets/elvis3.mp4" type="video/mp4">
-    <source src="mov_bbb.ogg" type="video/ogg">
-    Your browser does not support HTML5 video.
-  </video>
-</div>
+  <div id="div1">
+    <video autoplay muted loop class="videos" width="420">
+      <source src="assets/elvis.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  </div><br>
+  <div id="div2">
+    <video autoplay muted loop class="videos" width="420">
+      <source src="assets/elvis2.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  </div><br>
+  <div id="div3">
+    <video autoplay muted loop class="videos" width="420">
+      <source src="assets/elvis3.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+  <div id="div4">
+    <video controls loop class="videos" width="420">
+      <source src="assets/elvis4.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  </div> <br>
+  <div id="div5">
+    <p>1:55<br>
+      This ol' airport's got me down<br>
+      It's no earthly good to me<br>
+      'Cause I'm stuck here on the ground<br>
+      Cold and drunk as I might be<br>
+      Can't jump a jet plane<br>
+      Like you can a freight train<br>
+      So I best be on my way<br>
+      In the early mornin' rain<br>
+      So I best be on my way<br>
+      In the early mornin' rain<br>
+      So I best be on my way<br>
+      In the early mornin' rain<br></p>
+  </div>
 
-<div id="div4" style="width:600px;display:none;">
-<p>early morning rain</p>
-</div>
+</body>
 
-
-  </body>
 </html>
-
-
